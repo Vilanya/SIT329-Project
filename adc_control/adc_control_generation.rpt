@@ -1,6 +1,44 @@
+Info: Starting: Create simulation model
+Info: qsys-generate C:\Users\nebula\Documents\IntelFPGALite\project329\adc_control.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=C:\Users\nebula\Documents\IntelFPGALite\project329\adc_control\simulation --family="Cyclone V" --part=5CSEBA6U23I7
+Progress: Loading project329/adc_control.qsys
+Progress: Reading input file
+Progress: Adding adc_mega_0 [altera_up_avalon_adc_mega 18.0]
+Progress: Parameterizing module adc_mega_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: adc_control: Generating adc_control "adc_control" for SIM_VERILOG
+Info: adc_mega_0: Starting Generation of ADC Controller for DE-series Board
+Info: adc_mega_0: C:/intelfpga_lite/20.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/altera_up_avalon_adv_adc.v C:/Users/nebula/AppData/Local/Temp/alt8889_4524983602973853963.dir/0002_sopcgen/adc_control_adc_mega_0.v
+Warning: adc_mega_0: Generation callback did not provide a top level file.  Found adc_control_adc_mega_0.v in output directory - callback must `add_file $output_dir/adc_control_adc_mega_0.v {SIMULATION SYNTHESIS}`
+Info: adc_mega_0: "adc_control" instantiated altera_up_avalon_adc_mega "adc_mega_0"
+Info: adc_control: Done "adc_control" with 2 modules, 3 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=C:\Users\nebula\Documents\IntelFPGALite\project329\adc_control\adc_control.spd --output-directory=C:/Users/nebula/Documents/IntelFPGALite/project329/adc_control/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=C:\Users\nebula\Documents\IntelFPGALite\project329\adc_control\adc_control.spd --output-directory=C:/Users/nebula/Documents/IntelFPGALite/project329/adc_control/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in C:/Users/nebula/Documents/IntelFPGALite/project329/adc_control/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in C:/Users/nebula/Documents/IntelFPGALite/project329/adc_control/simulation/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in C:/Users/nebula/Documents/IntelFPGALite/project329/adc_control/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in C:/Users/nebula/Documents/IntelFPGALite/project329/adc_control/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	1 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in C:/Users/nebula/Documents/IntelFPGALite/project329/adc_control/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under C:/Users/nebula/Documents/IntelFPGALite/project329/adc_control/simulation/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create Modelsim Project.
 Info: Starting: Create block symbol file (.bsf)
-Info: qsys-generate C:\Users\nebula\Documents\IntelFPGALite\blink\adc_control.qsys --block-symbol-file --output-directory=C:\Users\nebula\Documents\IntelFPGALite\blink\adc_control --family="Cyclone V" --part=5CSEBA6U23I7
-Progress: Loading blink/adc_control.qsys
+Info: qsys-generate C:\Users\nebula\Documents\IntelFPGALite\project329\adc_control.qsys --block-symbol-file --output-directory=C:\Users\nebula\Documents\IntelFPGALite\project329\adc_control --family="Cyclone V" --part=5CSEBA6U23I7
+Progress: Loading project329/adc_control.qsys
 Progress: Reading input file
 Progress: Adding adc_mega_0 [altera_up_avalon_adc_mega 18.0]
 Progress: Parameterizing module adc_mega_0
@@ -12,8 +50,8 @@ Info: qsys-generate succeeded.
 Info: Finished: Create block symbol file (.bsf)
 Info: 
 Info: Starting: Create HDL design files for synthesis
-Info: qsys-generate C:\Users\nebula\Documents\IntelFPGALite\blink\adc_control.qsys --synthesis=VERILOG --output-directory=C:\Users\nebula\Documents\IntelFPGALite\blink\adc_control\synthesis --family="Cyclone V" --part=5CSEBA6U23I7
-Progress: Loading blink/adc_control.qsys
+Info: qsys-generate C:\Users\nebula\Documents\IntelFPGALite\project329\adc_control.qsys --synthesis=VERILOG --greybox --output-directory=C:\Users\nebula\Documents\IntelFPGALite\project329\adc_control\synthesis --family="Cyclone V" --part=5CSEBA6U23I7
+Progress: Loading project329/adc_control.qsys
 Progress: Reading input file
 Progress: Adding adc_mega_0 [altera_up_avalon_adc_mega 18.0]
 Progress: Parameterizing module adc_mega_0
@@ -23,8 +61,10 @@ Progress: Validating
 Progress: Done reading input file
 Info: adc_control: Generating adc_control "adc_control" for QUARTUS_SYNTH
 Info: adc_mega_0: Starting Generation of ADC Controller for DE-series Board
-Info: adc_mega_0: C:/intelfpga_lite/20.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/altera_up_avalon_adv_adc.v C:/Users/nebula/AppData/Local/Temp/alt8889_2660295296314299160.dir/0002_sopcgen/adc_control_adc_mega_0.v
+Info: adc_mega_0: C:/intelfpga_lite/20.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/altera_up_avalon_adv_adc.v C:/Users/nebula/AppData/Local/Temp/alt8889_4524983602973853963.dir/0006_sopcgen/adc_control_adc_mega_0.v
 Info: adc_mega_0: "adc_control" instantiated altera_up_avalon_adc_mega "adc_mega_0"
 Info: adc_control: Done "adc_control" with 2 modules, 3 files
+Info: Generating third-party timing and resource estimation model ...
+Info: Done generating third-party timing and resource estimation model.
 Info: qsys-generate succeeded.
 Info: Finished: Create HDL design files for synthesis

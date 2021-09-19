@@ -1,0 +1,19 @@
+# system info adc_control on 2021.09.19.16:37:35
+system_info:
+name,value
+DEVICE,5CSEBA6U23I7
+DEVICE_FAMILY,Cyclone V
+GENERATION_ID,1632033453
+#
+#
+# Files generated for adc_control on 2021.09.19.16:37:35
+files:
+filepath,kind,attributes,module,is_top
+simulation/adc_control.v,VERILOG,,adc_control,true
+simulation/submodules/altera_up_avalon_adv_adc.v,VERILOG,,adc_control_adc_mega_0,false
+simulation/submodules/adc_control_adc_mega_0.v,VERILOG,,adc_control_adc_mega_0,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+adc_control.adc_mega_0,adc_control_adc_mega_0
